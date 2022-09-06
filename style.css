@@ -1,4 +1,44 @@
 
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{ margin: 2.0em;
 
 }
@@ -16,13 +56,16 @@ body{ margin: 2.0em;
 }
 
 
+
+
+
 h1{
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: auto;
     font-weight: bolder;
     font-style: italic;
     font-size: 60;
-    margin: 50;
+    margin: 20;
     font-family: 'Cookie', cursive;
     h1 :class="animate__animated animate__bounce"
     
@@ -44,6 +87,8 @@ p{
 
  #chart{
      width: 100%;
+     margin-left: auto;
+     margin-right: auto;
      
  }
 
